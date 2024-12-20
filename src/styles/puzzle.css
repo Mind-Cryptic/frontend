@@ -1,0 +1,112 @@
+.puzzle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.puzzle-box {
+  position: relative;
+  width: 380px;
+  height: 420px;
+  rotate: 127deg;
+}
+
+.dot-border-purple {
+  width: 450px;
+  height: 83px;
+  border: 4px dashed #621bc2;
+  position: absolute;
+  border-top: none;
+  border-right: none;
+  top: 116px;
+  left: 118px;
+}
+.bot-border-soft-pink {
+  width: 317px;
+  height: 157px;
+  border: 4px dashed #d6158c;
+  position: absolute;
+  border-top: none;
+  border-left: none;
+  top: 108px;
+  left: 761px;
+}
+
+.dot-border-orange {
+  width: 289px;
+  height: 219px;
+  border: 4px dashed #ff5757;
+  position: absolute;
+  border-bottom: none;
+  border-right: none;
+  top: -176px;
+  left: 124px;
+}
+
+.dot-border-pink {
+  width: 385px;
+    height: 116px;
+    border: 4px dashed #ff5757;
+    position: absolute;
+    border-bottom: none;
+    border-left: none;
+    top: -118px;
+    left: 703px;
+
+}
+
+.puzzle-text {
+  position: absolute;
+  font-size: 48px;
+  color: var(--white-color--);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 999;
+}
+.text-win {
+  top: 104px;
+  left: 255px;
+  rotate: -91deg;
+}
+.text-start {
+  top: 266px;
+  left: 68px;
+  rotate: -88deg;
+}
+.text-slove {
+  left: 69px;
+  top: 79px;
+  rotate: -89deg;
+}
+.puzzle-piece {
+  position: absolute;
+  max-width: unset;
+  width: 280px;
+  height: 280px;
+}
+
+.pink-puzzle {
+  transform: rotate(224deg);
+  top: 0;
+  left: 0;
+}
+
+.soft-pink-puzzle {
+  transform: rotate(-136deg);
+  top: 29px;
+  left: 138px;
+}
+
+.purple-puzzle {
+  transform: rotate(224deg);
+  top: 140px;
+  left: -27px;
+}
+
+.blank-puzzle {
+  transform: rotate(224deg);
+  top: 168px;
+  left: 111px;
+}

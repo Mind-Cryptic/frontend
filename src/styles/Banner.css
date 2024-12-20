@@ -1,0 +1,483 @@
+/* Line styles */
+
+.signal-lines {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.line {
+  position: absolute;
+  background-color: var(--circuit-line-color--);
+  width: 1.6px;
+}
+
+.rotate {
+  rotate: 90deg;
+}
+.circuit {
+  display: none;
+  position: absolute;
+  max-width: unset;
+}
+.decode-box {
+  display: none;
+  position: absolute;
+  border: 2px solid var(--circuit-line-color--);
+}
+
+.brain-one {
+  display: none;
+  max-width: fit-content;
+  position: absolute;
+}
+.logic-gate {
+  display: none;
+  position: absolute;
+  max-width: unset;
+}
+.number-box {
+  display: none;
+  position: absolute;
+  color: var(--circuit-line-color--);
+  font-size: 14px;
+}
+
+/* ---------tablet--screen-query---------  */
+@media (min-width: 768px) {
+  .circuit {
+    display: block;
+    left: 40px;
+    top: 18px;
+    width: 70px;
+  }
+
+  .decode-box {
+    display: block;
+    top: 180px;
+    left: 131px;
+    width: 13rem;
+    height: 5.2rem;
+  }
+
+  .brain-one {
+    display: block;
+    top: 283px;
+    left: 574px;
+  }
+
+  .logic-gate {
+    display: block;
+    left: 673px;
+    top: 184px;
+  }
+
+  .number-box {
+    display: block;
+    left: 660px;
+    top: 21px;
+    width: 60px;
+  }
+
+  .vertical-1 {
+    height: 5rem;
+    top: -35px;
+    left: 13px;
+  }
+
+  .vertical-2 {
+    height: 3rem;
+    top: 82px;
+    left: 73px;
+  }
+
+  .vertical-3 {
+    height: 5rem;
+    top: 130px;
+    left: 29px;
+  }
+
+  .vertical-6 {
+    height: 3.4rem;
+    top: 260px;
+    left: 236px;
+  }
+
+  .vertical-7 {
+    height: 15px;
+    top: 343px;
+    left: 622px;
+  }
+
+  .vertical-8 {
+    height: 155px;
+    top: 37px;
+    left: 699px;
+  }
+
+  .vertical-9 {
+    height: 8.2rem;
+    top: 229px;
+    left: 693px;
+  }
+
+  .vertical-10 {
+    height: 1rem;
+    top: 175px;
+    left: 685px;
+  }
+
+  .vertical-12 {
+    height: 84px;
+    top: -28px;
+    left: 750px;
+  }
+
+  .horizontal-1 {
+    height: 4rem;
+    top: -66px;
+    left: 45px;
+  }
+
+  .horizontal-2 {
+    height: 3rem;
+    top: 20px;
+    left: 36px;
+  }
+
+  .horizontal-3 {
+    height: 45px;
+    top: 108px;
+    left: 51px;
+  }
+
+  .horizontal-4 {
+    height: 103px;
+    top: 159px;
+    left: 80px;
+  }
+
+  .horizontal-7 {
+    height: 22rem;
+    top: 137px;
+    left: 412px;
+  }
+
+  .horizontal-8 {
+    height: 73px;
+    top: 323px;
+    left: 657px;
+  }
+
+  .horizontal-9 {
+    height: 91px;
+    top: 10px;
+    left: 705px;
+  }
+
+  .horizontal-11 {
+    height: 4rem;
+    top: -60px;
+    left: 719px;
+  }
+
+}
+
+/* ---------medium--screen-query--------- */
+@media (min-width: 1024px) {
+  .circuit {
+    display: block;
+    left: 40px;
+    top: 18px;
+    width: 70px;
+  }
+
+  .decode-box {
+    display: block;
+    top: 10rem;
+    left: 11rem;
+    width: 17rem;
+    height: 7rem;
+  }
+
+  .brain-one {
+    display: block;
+    top: 294px;
+    left: 43.5rem;
+  }
+
+  .logic-gate {
+    display: block;
+    left: 911px;
+    top: 170px;
+  }
+
+  .number-box {
+    display: block;
+    left: 920px;
+    top: 2px;
+    width: 60px;
+  }
+
+  .vertical-1 {
+    height: 5rem;
+    top: -35px;
+    left: 20px;
+  }
+
+  .vertical-2 {
+    height: 3rem;
+    top: 82px;
+    left: 73px;
+  }
+
+  .vertical-3 {
+    height: 5rem;
+    top: 130px;
+    left: 29px;
+  }
+
+  .vertical-6 {
+    height: 3.4rem;
+    top: 270px;
+    left: 310px;
+  }
+
+  .vertical-7 {
+    height: 15px;
+    top: 22.2rem;
+    left: 46.5rem;
+  }
+
+  .vertical-8 {
+    height: 155px;
+    top: 215px;
+    left: 932px;
+  }
+
+  .vertical-9 {
+    height: 10.2rem;
+    top: 16px;
+    left: 938px;
+  }
+
+  .vertical-10 {
+    height: 1rem;
+    top: 163px;
+    left: 923px;
+  }
+
+  .vertical-12 {
+    height: 65px;
+    top: -28px;
+    left: 1000px;
+  }
+
+  .horizontal-1 {
+    height: 4rem;
+    top: -66px;
+    left: 52px;
+  }
+
+  .horizontal-2 {
+    height: 3rem;
+    top: 20px;
+    left: 43px;
+  }
+
+  .horizontal-3 {
+    height: 45px;
+    top: 108px;
+    left: 51px;
+  }
+
+  .horizontal-4 {
+    height: 148px;
+    top: 135px;
+    left: 103px;
+  }
+
+  .horizontal-7 {
+    height: 25rem;
+    top: 123px;
+    left: 509px;
+  }
+
+  .horizontal-8 {
+    height: 188px;
+    top: 275px;
+    left: 837px;
+  }
+
+  .horizontal-9 {
+    height: 81px;
+    top: -4px;
+    left: 960px;
+  }
+
+  .horizontal-11 {
+    height: 4rem;
+    top: -60px;
+    left: 969px;
+  }
+}
+
+
+/* ----largee-scren-query--- */
+@media (min-width: 1025px) {
+  .circuit {
+    display: block;
+    left: 81px;
+    top: 31px;
+  }
+
+  .decode-box {
+    display: block;
+    top: 11.5rem;
+    left: 17rem;
+    width: 19rem;
+    height: 7rem;
+  }
+
+  .brain-one {
+    display: block;
+    top: 310px;
+    left: 54rem;
+  }
+
+  .logic-gate {
+    display: block;
+    left: 68.8rem;
+    top: 12.4rem;
+  }
+  .number-box {
+    display: block;
+
+    left: 1106px;
+    top: 26px;
+  }
+
+  .vertical-1 {
+    height: 6rem;
+    top: -35px;
+    left: 29px;
+  }
+
+  .vertical-2 {
+    height: 3rem;
+    top: 112px;
+    left: 124px;
+  }
+  .vertical-3 {
+    height: 3rem;
+    top: 158px;
+    left: 67px;
+  }
+
+  .vertical-6 {
+    height: 3.2rem;
+    top: 295px;
+    left: 424px;
+  }
+  .vertical-7 {
+    height: 19px;
+    top: 23.2rem;
+    left: 57rem;
+  }
+
+  .vertical-8 {
+    height: 9.2rem;
+    top: 15.2rem;
+    left: 70rem;
+  }
+
+  .vertical-9 {
+    height: 10.2rem;
+    top: 44px;
+    left: 70.5rem;
+  }
+
+  .vertical-10 {
+    height: 1rem;
+    top: 191px;
+    left: 69.5rem;
+  }
+
+  .vertical-12 {
+    height: 6.5rem;
+    top: -34px;
+    left: 1248px;
+  }
+
+  .horizontal-1 {
+    height: 4rem;
+    top: -66px;
+    left: 60px;
+  }
+
+  .horizontal-2 {
+    height: 4rem;
+    top: 29px;
+    left: 60px;
+  }
+  .horizontal-3 {
+    height: 57px;
+    top: 130px;
+    left: 96px;
+  }
+  .horizontal-4 {
+    height: 205px;
+    top: 103px;
+    left: 169px;
+  }
+
+  .horizontal-7 {
+    height: 28rem;
+    top: 121px;
+    left: 647px;
+  }
+  .horizontal-8 {
+    height: 13rem;
+    top: 285px;
+    left: 1015px;
+  }
+  .horizontal-9 {
+    height: 9rem;
+    top: -3px;
+    left: 1177px;
+  }
+
+  .horizontal-11 {
+    height: 4rem;
+    top: -66px;
+    left: 1217px;
+  }
+}
+
+/* .dot {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: red;
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 100px;
+  top: -36px;
+  left: 56px;
+  z-index: 999;
+  animation: moveDot 6s linear infinite;
+} */
+
+@keyframes moveDot {
+  5% {
+    top: 57%;
+    right: 10%;
+  }
+  10% {
+    top: 10%;
+  }
+  15% {
+    top: 50%;
+  }
+}
+

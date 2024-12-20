@@ -1,0 +1,50 @@
+[
+    { "id": 1,
+      "title": "Thunder Math",
+      "description": "A comprehensive challenge with multiple math tests, puzzles and quizzes. Compete with others to win reward coins.",
+      "starts_in": "2 hours 30 minutes",
+      "entry_fee": 20,
+      "reward": 100,
+      "duration": "30 minutes",
+      "participants": 67,
+      "register": {
+        "cta_text": "Register now"
+      }
+    },
+    { "id": 2,
+      "title": "Brain Buster",
+      "description": "Test your logical reasoning and problem-solving skills with tricky challenges and puzzles.",
+      "starts_in": "1 hour 15 minutes",
+      "entry_fee": 15,
+      "reward": 80,
+      "duration": "25 minutes",
+      "participants": 50,
+      "register": {
+        "cta_text": "Register now"
+      }
+    },
+    { "id": 3,
+      "title": "Speed Calculations",
+      "description": "Race against the clock to solve math calculations as quickly as possible. Accuracy is key!",
+      "starts_in": "3 hours 45 minutes",
+      "entry_fee": 25,
+      "reward": 120,
+      "duration": "20 minutes",
+      "participants": 78,
+      "register": {
+        "cta_text": "Register now"
+      }
+    },
+    { "id": 4,
+      "title": "Puzzle Pro",
+      "description": "Solve unique and challenging puzzles to showcase your problem-solving mastery.",
+      "starts_in": "4 hours 10 minutes",
+      "entry_fee": 30,
+      "reward": 150,
+      "duration": "40 minutes",
+      "participants": 90,
+      "register": {
+        "cta_text": "Register now"
+      }
+    }
+  ]
